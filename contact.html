@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=0">
+    <title>Contact me</title>
+</head>
+<body>
+    <nav class="hidden-xs">
+		<div class="col-2">
+			<div class="img-container"><img src="images/logo.JPEG"></div>
+		</div>
+		<div class="col-8 off-2 shift-right">
+			<a href="/">Home |</a>
+			<a href="/about-me">About |</a>
+			<a href="/experience">Experience |</a>
+			<a href="/awards">Awards |</a>
+			<a href="/blog">Blog |</a>
+			<a href="#"><span class="navved">Contact |</span></a>
+			<!-- <a href=""><i class="fa fa-whatsapp"></i></a>
+			<a href=""><i class="fa fa-facebook"></i></a>
+			<a href=""><i class="fa fa-instagram"></i></a> -->
+		</div>
+	</nav>
+	<div class="hidden-lg">
+		<div class="mobile-nav closed" id="mobile-nav" class="mobile-nav responsive">
+			<a href="" class=" xs-11 xs-off-1  xs-px20 xs-color salsa">Tolani Odukoya</a>
+			<div class="mobile-logo">
+				<img src="images/logo.JPEG">
+			</div>
+			<a href="/">Home |</a>
+			<a href="about">About |</a>
+			<a href="experience">Experience |</a>
+			<a href="/awards">Awards |</a> 
+			<a href="/blog">Blog |</a>
+			<a href="#">Contact |</a>
+			<a href="javascript:void(0)" onclick="toggle()"><i id="togg" class="fa fa-bars"></i></a>
+		</div>
+	</div>
+	<div>
+        <div class="col-12">
+            <div class="mother">
+            <div class="container">
+                <div class="col-12 down-8 xs-12 ">
+                    <div class="col-10 off-1">
+                        <div class="col-10">
+                            <span class="px60 xs-11 green xs-off-1 font xs-down-20 down-5 col-12 xs-px30">Contact</span>
+                        </div>
+                        <div class="px30 col-12 down-5 xs-11 xs-off-1 xs-px20 xs-down-5">
+                            <span class="">Make your life a masterpiece, imagine no limitations on what you can, have or do. ~ Brian Tracy.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="col-12 down-10 xs-12 xs-down-10">
+                <div class="bg-landing-4">
+                    <div class="dark-scarf">
+                        <div class="col-8 off-4 down-20 xs-10 xs-off-2 xs-down-50">
+                            <span class="white px30 font xs-px18 bold">GENERAL ENQUIRIES</span>
+                        </div>
+                        <div class="col-12 shift-centre"> 
+                            <a href="" class="white shift-center xs-px15">CONTACT@TOLANIODUKOYA.COM</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+        <div class="col-12 down-10 xs-10 xs-off-1 xs-down-10">
+            <div class="col-9 off-3">
+                <span class="px40 xs-px30 font">I'd love to connect with you, Hit me up!</span>
+            </div>
+        </div>
+
+        <div class="col-9 off-3 xs-12 xs-down-10 down-3">
+            <div class="book-form off-1">
+                <form action="https://formspree.io/contact@tolaniodukoya.com" method="post" class="form">
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Full Name" id="name" name="name" required>
+                        <label for="name" class="form-label">Full Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="Email Address" id="email" name="_replyto" required>
+                        <label for="email" class="form-label">Email Address</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Subject" id="subject" name="subject" required>
+                        <label for="subject" class="form-label">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label"></label>
+                        <textarea id="message" name="subject" class="form-input" placeholder="Write something.." style="height:200px" required></textarea>
+                    </div>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <!-- Load Facebook SDK for JavaScript -->
+                  <div id="fb-root"></div>
+                  <script>
+                    window.fbAsyncInit = function() {
+                      FB.init({
+                        xfbml            : true,
+                        version          : 'v7.0'
+                      });
+                    };
+
+                    (function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                    fjs.parentNode.insertBefore(js, fjs);
+                  }(document, 'script', 'facebook-jssdk'));</script>
+
+                  <!-- Your customer chat code -->
+                  <div class="fb-customerchat"
+                    attribution=setup_tool
+                    page_id="100175198379180"
+              theme_color="#006600"
+              logged_in_greeting="Hi! How can I help you?"
+              logged_out_greeting="Hi! How can I help you?">
+                  </div>
+        </div>
+        <div class="col-12 down-10 xs-12 xs-down-10">
+            <div class="bg-footer">
+                <div class="dark-scarf-4">
+                    <div class="container">
+                        <div class="col-12 down-5 xs-12">
+                            <div class="col-12 xs-12">
+                                <div class="col-6 off-5 xs-6 xs-off-2 xs-down-10">
+                                    <span class="white px30 raleway xs-px20 xs-off-5">Contact</span>
+                                    <div class="xs-12 xs-down-5">
+                                        <a href="" class="white xs-px18 xs-off-1">contact@tolaniodukoya.com</a>
+                                    </div>
+                                    <div class="col-12 down-2 xs-12">
+                                        <div class="col-2 xs-3 xs-off-2">
+                                            <a href="https://www.facebook.com/tolani.oduk" class=""><i class="fa fa-facebook icon px20"></i></a>
+                                        </div>
+                                        <div class="col-2 xs-3 xs-off-4">
+                                            <a href="https://twitter.com/tolaniodukoya_?s=09" class=""><i class="fa fa-twitter icon px20"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 down-2 xs-12">
+                                        <div class="col-2 xs-3 xs-off-2">
+                                            <a href="https://www.linkedin.com/tolani-odukoya" class=""><i class="fa fa-linkedin icon  px20"></i></a>
+                                        </div>
+                                        <div class="col-2 xs-3 xs-off-4">
+                                            <a href="https://www.instagram.com/tolaniodukoya_/" class=""><i class="fa fa-instagram icon px20"></i></a>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="col-12 down-2 xs-12 xs-down-3">
+                        <span class="white raleway"><i class="fa fa-copyright white xs-px18"></i> Copyright Tolani Odukoya 2020</span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>    
+        
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+</html>
